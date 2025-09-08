@@ -12,8 +12,12 @@ int main()
 {
 	double num1, num2, sum;
 
-	num1 = 50;
-	num2 = 100; 
+	cout << "Please enter your first number: "; 
+	cin >> num1; 
+
+	cout << "Please enter your second number: ";
+	cin >> num2; 
+	
 	sum = num1 + num2;
 
 	cout << "The total of " << num1 << " and " << num2 << " is " << sum << "." << endl;
