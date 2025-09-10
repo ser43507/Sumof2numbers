@@ -23,6 +23,7 @@ int main()
 	cout << "The total of " << num1 << " and " << num2 << " is " << sum << "." << endl;
 
 	return 0; 
+
 }
 
 
